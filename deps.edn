@@ -1,0 +1,16 @@
+{:deps
+ {org.clojure/clojure              {:mvn/version "1.12.0"},
+  wizard/toolbelt                  {:local/root "./wizard.toolbelt"},
+  wizard/contextually              {:local/root "./wizard.contextually"},
+  wizard/integratability           {:local/root "./wizard.integratability"},
+  wizard/domain.website-production {:local/root "./wizard.domain.website-production"}},
+ :aliases
+ {:dev
+  {:extra-paths ["dev"]}
+  :test
+  {:extra-paths ["wizard.contextually/test"
+                 "wizard.integratability/test"
+                 "wizard.domain.website-production/test"]
+   :extra-deps
+   {wizard/toolbelt.test {:local/root "./wizard.toolbelt.test"}},
+   :main-opts   ["-m" "kaocha.runner"]}}}

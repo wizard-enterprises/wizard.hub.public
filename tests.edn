@@ -1,0 +1,6 @@
+#kaocha/v1
+{:repos    #include "repos.edn"
+ :plugins  [:kaocha.plugin/profiling]
+ :tests    [{:id         :unit
+             :test-paths #ref [:form :repos :test-paths]}]
+ :reporter [kaocha.report/documentation]}

@@ -1,0 +1,6 @@
+{:repos      {"wizard.toolbelt" {:host :github :org :wizard-enterprises}
+              "wizard.toolbelt.test" {:host :github :org :wizard-enterprises}
+              "wizard.contextually" {:host :github :org :wizard-enterprises}
+              "wizard.integratability" {:host :github :org :wizard-enterprises}}
+ :test-paths ["wizard.contextually/test"
+              "wizard.integratability/test"]}

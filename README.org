@@ -1,0 +1,4 @@
+* wizard.hub
+** Useful commands
+- ~clj -M:test~ :: Run the tests (add the ~--watch~ flag to rerun on
+  file changes)

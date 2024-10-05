@@ -1,0 +1,12 @@
+[submodule "wizard.contextually"]
+	path = wizard.contextually
+	url = https://github.com/wizard-enterprises/wizard.contextually
+[submodule "wizard.integratability"]
+	path = wizard.integratability
+	url = https://github.com/wizard-enterprises/wizard.integratability
+[submodule "wizard.toolbelt"]
+	path = wizard.toolbelt
+	url = https://github.com/wizard-enterprises/wizard.toolbelt
+[submodule "wizard.toolbelt.test"]
+	path = wizard.toolbelt.test
+	url = https://github.com/wizard-enterprises/wizard.toolbelt.test
